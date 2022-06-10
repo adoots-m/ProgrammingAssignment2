@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##set input to x, creaed a null variable inv and then created
+##set input to x, created a null variable inv and then created
 ## list object that contains the original matrix and the cached inverse
 
 cacheSolve <- function(x, ...) { # nolint    
